@@ -11,6 +11,8 @@ import Computer from "./common/Computer";
 import UserList from "./common/UsrList";
 import CommentApp from "./common/comment/CommentApp";
 import PercentageApp from "./common/percentage/PercentageApp";
+import Clock from "./common/clock/Clock";
+import ClockApp from "./common/clock/ClockApp";
 
 // (function renderContent(content) {
 //     ReactDOM.render(<h1>{content}</h1>, document.getElementById('root'))
@@ -25,4 +27,4 @@ const users = [
     { username: 'Lucy', age: 20, gender: 'female' }
 ];
 // ReactDOM.render(<UserList users={users}/>, document.getElementById('root'));
-ReactDOM.render(<PercentageApp/>, document.getElementById('root'));
+ReactDOM.render(<ClockApp/>, document.getElementById('root'));
